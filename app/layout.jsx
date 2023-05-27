@@ -18,7 +18,7 @@ const RootLayout = ({children}) => {
                   <div className="gardient"/>
               </div>
               
-              <main className="app ">
+              <main className="app bg-gradient-to-b from-gray-900 to-gray-600 bg-gradient-to-r">
                   <Nav/>
                   {children}
              </main>
